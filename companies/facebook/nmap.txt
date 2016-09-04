@@ -1,13 +1,12 @@
 
-Starting Nmap 7.12 ( https://nmap.org ) at 2016-09-04 14:29 EDT
+Starting Nmap 7.12 ( https://nmap.org ) at 2016-09-04 14:35 EDT
 Nmap scan report for edge-star-mini-shv-17-prn1.facebook.com (69.171.230.68)
-Host is up (0.060s latency).
-Not shown: 95 filtered ports
-PORT     STATE  SERVICE
-25/tcp   closed smtp
-80/tcp   open   http
-443/tcp  open   https
-445/tcp  closed microsoft-ds
-3128/tcp closed squid-http
+Host is up (0.070s latency).
+Not shown: 96 filtered ports
+PORT    STATE  SERVICE
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+445/tcp closed microsoft-ds
 
-Nmap done: 1 IP address (1 host up) scanned in 15.47 seconds
+Nmap done: 1 IP address (1 host up) scanned in 2.85 seconds
