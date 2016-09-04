@@ -1,2 +1,4 @@
-thenewboston https://www.thenewboston.com
 google https://www.google.com
+facebook https://www.facebook.com
+reddit https://www.reddit.com
+spartan droids https://www.spartandroids.com

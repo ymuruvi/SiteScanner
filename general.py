@@ -11,16 +11,18 @@ def write_file(path, data):
     f.write(data)
     f.close()
 
+###Returns an array with a list of all the companies to scan
 def read_file(path):
     f = open(path,'r')
     out = []
     lines = 0
     for line in f:
-        lines+=1
-        out.append(line)
-        print(lines+ ": " +out[lines])
+        url_marker = line.find("http")
+        out.append([(line),url_marker])
+        #print(lines+1, ": " + str(out[lines]))
+        lines += 1
     f.close
-    print(out)
+    #print(out)
     return out
 
-read_file("companiestoscan.txt")
+#read_file("companiestoscan.txt")
