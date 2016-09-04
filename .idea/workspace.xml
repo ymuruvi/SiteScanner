@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="507c115b-e6d8-4b07-945e-619a1dda2ef1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/companies/thenewboston/domain_name.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/companies/thenewboston/full_url.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/companies/thenewboston/nmap.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/companies/thenewboston/robots_txt.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/companies/thenewboston/whois.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/facebook/nmap.txt" afterPath="$PROJECT_DIR$/companies/facebook/nmap.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/facebook/whois.txt" afterPath="$PROJECT_DIR$/companies/facebook/whois.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/google/domain_name.txt" afterPath="$PROJECT_DIR$/companies/google/domain_name.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/google/full_url.txt" afterPath="$PROJECT_DIR$/companies/google/full_url.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/google/nmap.txt" afterPath="$PROJECT_DIR$/companies/google/nmap.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/google/robots_txt.txt" afterPath="$PROJECT_DIR$/companies/google/robots_txt.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companies/google/whois.txt" afterPath="$PROJECT_DIR$/companies/google/whois.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companiestoscan.txt" afterPath="$PROJECT_DIR$/companiestoscan.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domain_name.py" afterPath="$PROJECT_DIR$/domain_name.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/general.py" afterPath="$PROJECT_DIR$/general.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmap.py" afterPath="$PROJECT_DIR$/nmap.py" />
-    </list>
+    <list default="true" id="507c115b-e6d8-4b07-945e-619a1dda2ef1" name="Default" comment="" />
     <ignored path="pyRecon.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nano &lt;ymuruvi@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -391,18 +377,26 @@
       <option name="presentableId" value="Default" />
       <updated>1472906528331</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed domain name issue for getting ip">
+      <created>1473013935689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473013935690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37755102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37755102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -445,6 +439,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed domain name issue for getting ip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed domain name issue for getting ip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
