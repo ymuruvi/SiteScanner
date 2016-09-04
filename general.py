@@ -13,12 +13,14 @@ def write_file(path, data):
 
 def read_file(path):
     f = open(path,'r')
-    out = ""
+    out = []
     lines = 0
     for line in f:
         lines+=1
         out.append(line)
-        print(out[lines])
+        print(lines+ ": " +out[lines])
     f.close
     print(out)
     return out
+
+read_file("companiestoscan.txt")
