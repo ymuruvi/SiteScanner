@@ -1,7 +1,10 @@
 import urllib.request
 import io
 
+
+
 def get_robots_txt(url):
+    print("Getting Robots.txt")
     if url.endswith('/'):
         path = url
     else:
