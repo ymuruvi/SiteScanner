@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 
 def get_nmap(options, ip):

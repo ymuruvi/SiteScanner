@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from domain_name import *
 from general import *
 from ip_address import *
@@ -8,7 +10,6 @@ import sys
 
 ROOT_DIR = 'companies'
 create_dir(ROOT_DIR)
-
 
 def gather_info(name, url):
     try:
@@ -23,8 +24,8 @@ def gather_info(name, url):
         print("Unexpected Error: \"", sys.exc_info()[0],"\"")
 
 
-
 def create_report(name, full_url, domain_name, ip_address, nmap, robots_txt, whois):
+    print ("Creating Report")
     project_dir = ROOT_DIR + '/' + name
     create_dir(project_dir)
     write_file(project_dir + "/full_url.txt", full_url)
@@ -35,13 +36,24 @@ def create_report(name, full_url, domain_name, ip_address, nmap, robots_txt, who
 
 
 def scan_sites_in_file(file_path):
+    print ("Scanning Sites In: \"" + file_path +"\"\n\n")
     data = read_file(file_path)
     for company in data:
         info = company[0]
-        #print(company[1])
         name = info[:company[1] - 1]
         url = info[company[1]:len(company[0])].rstrip("\n")
         gather_info(name, url)
         print("\n\n")
+    print("\nComplete")
 
-scan_sites_in_file("companiestoscan.txt")
+def get_site():
+    site = input("Please enter the file path for the file containing the list of files to scan.")
+    try:
+        scan_sites_in_file(site)
+    except:
+        try:
+            scan_sites_in_file("companies_to_scan.txt")
+        except:
+            print("No file was found for scanning the files.")
+
+get_site()
