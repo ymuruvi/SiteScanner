@@ -47,13 +47,18 @@ def scan_sites_in_file(file_path):
     print("\nComplete")
 
 def get_site():
-    site = input("Please enter the file path for the file containing the list of files to scan.")
-    try:
-        scan_sites_in_file(site)
-    except:
+    site = input("Please enter the file path for the file containing the list of files to scan.\nOr you can type \'no\' to search an individual site.")
+    if site== "no":
+        info = input("What site would you like to scan and what is the domain?\ni.e. \"google https://www.google.com\"")
+        name = info[0:info.index(" ")]#given the above example the name is google
+        url = info[info.index(" ")+1:len(info)+1]#given the above example the url is https://www.google.com
+        gather_info(name, url)
+    else:
         try:
-            scan_sites_in_file("companies_to_scan.txt")
+            scan_sites_in_file(site)
         except:
-            print("No file was found for scanning the files.")
-
+            try:
+                scan_sites_in_file("companies_to_scan.txt")
+            except:
+                print("No file was found for scanning the files.")
 get_site()
