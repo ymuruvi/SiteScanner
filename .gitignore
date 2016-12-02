@@ -89,5 +89,6 @@ ENV/
 .ropeproject
 
 # Personal additions
+#companies_to_scan.txt shall stay as it's required for the program to run
 *.txt
 .txt
